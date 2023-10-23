@@ -1,7 +1,7 @@
 ## To launch the application 💻
 
 General:
-* git clone 
+* git clone https://github.com/RodimushkinAlexandr/Nuxt.git
   
 Server terminal:
 * cd Widget-Test_Task

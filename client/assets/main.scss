@@ -1,0 +1,51 @@
+@import url(./reset.scss);
+
+@font-face {
+  font-family: "Lato";
+  src: url("/public/fonts/Lato-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #121416;
+  font-size: 16px;
+  color: aliceblue;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+
+  .container {
+    padding: 0px 10px;
+  }
+}
+
+#routerLink {
+  background: #2c4464;
+  font-size: 16;
+  color: aliceblue;
+  padding: 10px;
+  border: 1px solid #2c4464;
+  padding: 14px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3px;
+  flex: 0 0 auto;
+  box-shadow: 0px 5px 30px 9px rgba(0, 0, 0, 0.24);
+  transition: all ease-in-out 0.2s;
+
+  &:hover {
+    background: "#2c4464";
+    color: "aliceblue";
+    border-color: "#2c4464";
+  }
+}
